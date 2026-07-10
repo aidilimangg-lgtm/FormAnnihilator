@@ -1,0 +1,8 @@
+undetected-chromedriver
+selenium
+fake-useragent
+faker
+pydub
+SpeechRecognition
+requests
+colorama
