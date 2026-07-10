@@ -34,10 +34,10 @@ FormFlow/
 ├── cookies/                 # saved .pkl cookie files
 ├── recaptcha_bypass/        # GoogleRecaptchaBypass submodule (clone separately)
 └── utils/
-├── captcha_solver.py
-├── fingerprint.py
-├── proxy_manager.py
-└── humanize.py
+    ├── captcha_solver.py
+    ├── fingerprint.py
+    ├── proxy_manager.py
+    └── humanize.py
 
 ```
 
