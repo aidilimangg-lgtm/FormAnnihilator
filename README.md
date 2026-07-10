@@ -212,4 +212,4 @@ MIT License – see the LICENSE file.
 Built by aidilimangg-lgtm.
 Stay curious, stay ethical. 🐾
 
-```
+
