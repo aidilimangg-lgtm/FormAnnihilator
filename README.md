@@ -1,9 +1,7 @@
-
-
 # FormFlow – Google Form Automation Toolkit
 
 Automate Google Forms with reCAPTCHA v2 solving, multi‑account support, and human‑like interaction.  
-Built for **authorized security testing**, accessibility research, and educational exploration.
+Built for authorized security testing, accessibility research, and educational exploration.
 
 ⚠️ **Use only on forms you own or have explicit written permission to test.**
 
@@ -11,14 +9,14 @@ Built for **authorized security testing**, accessibility research, and education
 
 ## ✨ Features
 
-- **reCAPTCHA v2 Audio Bypass** – solves audio challenges using speech‑to‑text ([GoogleRecaptchaBypass](https://github.com/sarperavci/GoogleRecaptchaBypass))
-- **Multi‑Account Rotation** – loads Google sessions from saved cookies (no passwords stored)
-- **Proxy Support** – HTTP/HTTPS proxy list with automatic health checking
-- **Real Name Injection** – fills the “Name” field from a custom `names.txt` file
-- **Stealth Engine** – WebRTC leak prevention, navigator spoofing, random screen resolutions, human‑like typing delays
-- **Smart Captcha Detection** – skips re‑solving when the token is still valid
-- **Modular Design** – easily extend with new captcha solvers or field fillers
-- **VM Ready** – built for Kali Linux snapshots and disposable environments
+- **reCAPTCHA v2 Audio Bypass** – solves audio challenges using speech‑to‑text (powered by [GoogleRecaptchaBypass](https://github.com/sarperavci/GoogleRecaptchaBypass)).
+- **Multi‑Account Rotation** – loads Google sessions from saved cookies (no passwords stored).
+- **Proxy Support** – HTTP/HTTPS proxy list with automatic health checking.
+- **Real Name Injection** – fills the “Name” field from a custom `names.txt` file.
+- **Stealth Engine** – WebRTC leak prevention, navigator spoofing, random screen resolutions, human‑like typing delays.
+- **Smart Captcha Detection** – skips re‑solving when the token is still valid.
+- **Modular Design** – easily extend with new captcha solvers or field fillers.
+- **VM Ready** – built for Kali Linux snapshots and disposable environments.
 
 ---
 
@@ -34,12 +32,12 @@ FormFlow/
 ├── proxies.txt              # HTTP proxies (optional)
 ├── requirements.txt         # Python dependencies
 ├── cookies/                 # saved .pkl cookie files
-├── recaptcha_bypass/        # GoogleRecaptchaBypass submodule
+├── recaptcha_bypass/        # GoogleRecaptchaBypass submodule (clone separately)
 └── utils/
-    ├── captcha_solver.py
-    ├── fingerprint.py
-    ├── proxy_manager.py
-    └── humanize.py
+├── captcha_solver.py
+├── fingerprint.py
+├── proxy_manager.py
+└── humanize.py
 
 ```
 
@@ -211,5 +209,3 @@ MIT License – see the LICENSE file.
 
 Built by aidilimangg-lgtm.
 Stay curious, stay ethical. 🐾
-
-
