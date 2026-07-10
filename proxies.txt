@@ -1,0 +1,4 @@
+# Add your HTTP proxies here, one per line.
+# Example:
+# http://123.45.67.89:8080
+# http://user:pass@proxy.provider.com:3128
